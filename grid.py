@@ -19,8 +19,6 @@ class Grid:
         self.grid_array: npt.NDArray[np.int_] = np.zeros((self.size, self.size), dtype=int)
         self.player1_positions: list[Position] = []
         self.player2_positions: list[Position] = []
-        self.player1_max_length: int = 1
-        self.player2_max_length: int = 2
 
     def print_grid(self) -> bool:
 
