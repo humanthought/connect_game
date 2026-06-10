@@ -1,12 +1,23 @@
+"""
+connect_game.py
+This script will start the connect game.
+
+AI disclosure: Initial code did not include type hints. Type hints were added by cursor.
+"""
+
 import sys
+from typing import NoReturn
+
 from grid import Grid
 import constants as c
 
-def non_numerical_entry_detected():
+
+def non_numerical_entry_detected() -> NoReturn:
     print('Non-numerical entry detected. Exit game.')
     sys.exit(1)
 
-def main():
+
+def main() -> None:
     
     print('Welcome to the connect game. Please note that entering any non-numerical entry will end the game.')
     
