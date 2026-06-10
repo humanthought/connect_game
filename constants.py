@@ -1,0 +1,2 @@
+MIN_SIZE = 3
+MAX_SIZE = 5
