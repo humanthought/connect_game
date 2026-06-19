@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: connect-game 
+spec:
+  containers:
+  - name: connect-game
+    image: humanthought/connect_game:{{ .Values.tag }}
+    command: ['sh', '-c', 'echo "Start Connect Game" && sleep 3600']
