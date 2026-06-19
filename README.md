@@ -17,7 +17,9 @@ kubernetes via helm.
 helm install connect-game . --set tag=<tag> -n <namespace>
 ```
 
-
-
+To start the game:
+```
+python3 connect_game.py
+```
 
 
