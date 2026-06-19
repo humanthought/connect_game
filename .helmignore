@@ -1,0 +1,9 @@
+# .helmignore
+# AI disclosure: This was suggested by claude as helm did a symlink for python to python3.14 which caused an error.
+.git/
+.gitignore
+connect_game/
+*.pyc
+__pycache__/
+venv/
+.venv/
